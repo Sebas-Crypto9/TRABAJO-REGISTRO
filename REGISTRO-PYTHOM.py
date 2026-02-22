@@ -14,6 +14,22 @@ def main():
             break
         else:
             print("❌ Error: Solo se permiten letras en el segundo nombre. Intente nuevamente.")
+    # Primer apellido (obligatorio)
+    while True:
+        primer_apellido = input("Ingrese su primer apellido: ").strip()
+        if primer_apellido.isalpha():
+            break
+        else:
+            print("❌ Error: Solo se permiten letras en el primer apellido. Intente nuevamente.")
+
+    # Segundo apellido (obligatorio)
+    while True:
+        segundo_apellido = input("Ingrese su segundo apellido: ").strip()
+        if segundo_apellido.isalpha():
+            break
+        else:
+            print("❌ Error: Solo se permiten letras en el segundo apellido. Intente nuevamente.")
+
 
 if __name__ == "__main__":
     main()
