@@ -14,4 +14,10 @@ void main() {
 
   stdout.write("Segundo Nombre: ");
   String ape2 = stdin.readLineSync() ?? '';
+
+  stdout.write("Edad: ");
+  int edad = int.parse(stdin.readLineSync() ?? '0');
+
+  stdout.write("Año de nacimiento: ");
+  int nac = int.parse(stdin.readLineSync() ?? '0');
 }
