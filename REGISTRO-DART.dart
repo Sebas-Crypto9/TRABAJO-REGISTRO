@@ -20,4 +20,8 @@ void main() {
 
   stdout.write("Año de nacimiento: ");
   int nac = int.parse(stdin.readLineSync() ?? '0');
+
+  print(
+    "EL USUARIO IDENTIFICADO CON EL NOMBRE $nom1 $nom2 $ape1 $ape2 CON UNA EDAD DE $edad NACIDO EN EL AÑO $nac HA SIDO REGISTRADO CORRECTAMENTE",
+  );
 }
