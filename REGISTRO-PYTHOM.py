@@ -46,6 +46,8 @@ def main():
         else:
             print("❌ Error: Solo se permiten números en el año de nacimiento. Intente nuevamente.")
 
+    print(f"EL USUARIO IDENTIFICADO CON EL NOMBRE DE {primer_nombre} {segundo_nombre} {primer_apellido} {segundo_apellido} CON LA EDAD DE {edad} AÑOS NACIDO EL AÑO {año_nacimiento} HA SIDO REGISTRADO CORRECTAMENTE")
+
 
 if __name__ == "__main__":
     main()
