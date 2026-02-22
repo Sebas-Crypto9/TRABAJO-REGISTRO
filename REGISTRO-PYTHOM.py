@@ -30,6 +30,22 @@ def main():
         else:
             print("❌ Error: Solo se permiten letras en el segundo apellido. Intente nuevamente.")
 
+     # Edad (obligatorio)
+    while True:
+        edad = input("Ingrese su edad: ").strip()
+        if edad.isdigit():
+            break
+        else:
+            print("❌ Error: Solo se permiten números en la edad. Intente nuevamente.")
+
+    # Año de nacimiento (obligatorio)
+    while True:
+        año_nacimiento = input("Ingrese su año de nacimiento: ").strip()
+        if año_nacimiento.isdigit():
+            break
+        else:
+            print("❌ Error: Solo se permiten números en el año de nacimiento. Intente nuevamente.")
+
 
 if __name__ == "__main__":
     main()
